@@ -12,4 +12,10 @@
 
 
 <bean id="t1" class="kr.hs.study.beans.TestBean"/>
+
+<!--    TestBean2의 객체 t2  만들기 -->
+    <bean id="t2" class="kr.hs.study.beans.TestBean2" lazy-init="true"/>
+
+
+    <bean id="t3" class="kr.hs.study.beans.TestBean" lazy-init="true"/>
 </beans>
